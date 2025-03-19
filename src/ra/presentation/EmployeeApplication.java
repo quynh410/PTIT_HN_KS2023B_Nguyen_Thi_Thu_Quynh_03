@@ -36,7 +36,7 @@ public class EmployeeApplication {
                     eb.searchEmployee(sc);
                     break;
                 case 6:
-                    eb.sortEmployees(sc);
+                    eb.sortEmployees();
                     break;
                 case 0:
                     System.out.println("Đang thoát chương trình...");
